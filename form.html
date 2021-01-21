@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title> Veerat Babu Foundation</title>
+        <!-- Required meta tags always come first -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+
+    <!-- Bootstrap CSS -->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="bootstrap-social.css"> 
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="css/slick-theme.css">
+</head>
+
+<style>
+  body{ 
+  background: url('img/donation.jpg') no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  backdrop-filter: blur(5px);
+}
+</style>
+<body>
+  <!--NAVBAR START -->
+   <nav class="navbar navbar-dark bg-danger navbar-expand-sm fixed-top">
+        <div class="container">
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#Navbar">
+                <span class="navbar-toggler-icon"> </span>   
+            </button>
+            <a class="navbar-brand mr-auto" href="index.html"><i> Veerat Babu Foundation</i></a>
+            <div class="collapse navbar-collapse" id="Navbar">
+               <ul class="navbar-nav ml-auto">
+                  <li class="nav-item active"><a class="nav-link" href="./index.html"><span class="fa fa- fa-lg"></span>Intro </a></li>
+                  <li class="nav-item "><a class="nav-link" href="./home.html"><span class="fa fa-home fa-lg"></span> Home</a></li>
+                  <li class="nav-item"><a class="nav-link" href="./aboutus.html"><span class="fa fa-info fa-lg"></span> About Us</a></li>
+                  <li class="nav-item"><a class="nav-link" href="faq.html"><span class="fa fa-list fa-lg"></span> FAQ's</a></li>
+                  <li class="nav-item"><a class="nav-link" href="./contactus.html"><span class="fa fa-address-card fa-lg"></span> Contact Us</a></li>    
+               </ul>
+            
+             </div>  
+        </div>    
+    </nav>
+<!--NAVBAR END -->
+
+<!--DONATION FORM-->
+	<div class="container" style="padding-top: 20px;">
+    <div class="row">
+     <div class="col-xs-12 offset-sm-2 col-sm-8 bg-dark" style="opacity: 0.8;"> 
+      <p style="color: green;"><i>A donation is something which someone gives to a charity or other organization.<br>  A donation may take various forms, including money, alms, services, or goods such as clothing, toys, food, or vehicles. A donation may satisfy medical needs such as blood or organs for transplant.
+      </i><br> Veerat Babu Foundation </p>
+    </div>
+    </div>
+     <br>
+		<div class="col-xs-12 col-sm-12 offset-md-3 col-md-6">
+                <div class="card">
+                    <h3 class="card-header bg-info text-red " style="text-align:center;">Donation Form</h3>
+                    <div class="card-body ">
+                      <form action="paynow.php" method="post">
+                        <div class="form-group row">
+                        <label for="name" class="col-md-3 col-form-label"><b>Name:</b></label>
+                        <div class="col-md-9">
+                            <input type="text" class="form-control" id="name" name="name" placeholder="Name" required>
+                        </div>
+                        </div>
+                    <div class="form-group row">
+                        <label for="email" class="col-md-3 col-form-label"><b>Email ID:</b></label>
+                        <div class="col-md-9">
+                            <input type="email" class="form-control" id="email" name="email" placeholder="Email ID" required>
+                        </div>
+                    </div>
+                    <div class="form-group row">
+                        <label for="telnum" class="col-md-3 col-form-label"><b>Contact:</b></label>
+                        <div class=" col-md-9">
+                            <input type="tel" class="form-control" id="telnum" name="telnum" placeholder="Tel. number" required>
+                        </div>
+                    </div>
+                    <div class="form-group row">
+                        <label for="amount" class="col-md-3 col-form-label"><b>Amount:</b></label>
+                        <div class="col-md-9">
+                            <input type="number" class="form-control" id="amount" name="amount" placeholder="Donation Amount" required>
+                        </div>
+                    </div>
+                     <div class="form-group row">
+                        <div class="offset-md-3 col-md-9">
+                            <button type="submit" name="submit" value="donate" class="btn btn-info"><b>Donate Now</b></button>
+                        </div>
+                    </div>
+                    </form>
+
+                    </div>
+                </div> 
+    </div>              
+	</div>
+  <!--DONATION FORM-->
+	 <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+   <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+    <script src="js/scripts.js"></script>
+</body>  
+ 
+</html> 
